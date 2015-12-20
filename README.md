@@ -12,3 +12,10 @@ Target:  echo
 Received:aaa
 Sent:    aaa
 ```
+
+
+Maybe, using this command is better. 
+
+```
+$ socat TCP-LISTEN:9007,reuseaddr,fork exec:./binary&
+```
